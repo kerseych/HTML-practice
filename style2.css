@@ -4,3 +4,48 @@ h1 {
     style: bold;
     text-align: center;
 }
+
+p {
+    color: black;
+    font-family: roboto;
+    style: italic;
+    text-align: center;
+}
+
+h2  {
+    color: darkblue;
+    font-family: roboto;
+    style: bold;
+    text-align: center;
+}
+
+nav {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+}   
+
+ol  {
+    color: black;
+    font-family: roboto;
+    style: italic;
+    text-align: left;
+}
+
+li  {
+    color: black;
+    font-family: roboto;
+    style: italic;
+    text-align: left;
+}
+
+.restaurants {
+    width: 300px;
+    height:     200px;
+    padding: 20px;
+    border:     1px solid black;
+    border-radius:  8px;
+    box-sizing:     border-box;
+    text-align: center;
+    margin: 0 auto;
+}
