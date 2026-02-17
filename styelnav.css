@@ -53,10 +53,6 @@
   background-color: darkblue;
 }
 
-.gallery:focus {
-  outline: 2px solid #4337de;
-}
-
 .card img {
   width: 100%;
   border-radius: 8px;
@@ -79,4 +75,25 @@
   brorder-radius: 4px;
   font-size: 14px;
   z-index: 2;
+}
+
+.cta {
+    background-color: royalblue;
+    color: white;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.cta:hover {
+    background-color: dodgerblue;
+}
+
+.cta:active {
+    background-color: navy;
+}
+
+.cta::after {
+    content: " →";
+    font-weight: bold;
 }
